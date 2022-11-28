@@ -1,3 +1,4 @@
+'''
 number = int(input())
 print(number)
 print(number + 1)
@@ -45,3 +46,21 @@ print(result)
 
 number = int(input())
 print(number, number * 2, number * 3, number * 4, number * 5, sep='---')
+
+number1 = int(input())
+number2 = int(input())
+number3 = int(input())
+result = number1 * number2 ** (number3 - 1)
+print(result)
+
+number = int(input())
+print(number // 100)
+
+pupil = int(input())
+mandarin = int(input())
+print(mandarin // pupil)
+print(mandarin % pupil)
+'''
+population = int(input())
+oddCheck = population % 2
+print(population // 2 + oddCheck)
