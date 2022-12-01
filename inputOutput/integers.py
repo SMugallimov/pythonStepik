@@ -1,4 +1,4 @@
-'''
+
 number = int(input())
 print(number)
 print(number + 1)
@@ -60,7 +60,42 @@ pupil = int(input())
 mandarin = int(input())
 print(mandarin // pupil)
 print(mandarin % pupil)
-'''
 population = int(input())
 oddCheck = population % 2
 print(population // 2 + oddCheck)
+
+number = int(input())
+print((number + 3) // 4)
+
+number = int(input())
+hours = number // 60
+minutes = int(number % 60)
+print(number, "мин - это", hours, "час", minutes, "минут.")
+
+number = int(input())
+fisrt = number % 10
+second = (number % 100) // 10
+third = number // 100
+print("Сумма цифр =", fisrt + second + third)
+print("Произведение цифр =", fisrt * second * third)
+
+number = int(input())
+first = number % 10
+second = (number % 100) // 10
+third = number // 100
+print(third, second, first, sep='')
+print(third, first, second, sep='')
+print(second, third, first, sep='')
+print(second, first, third, sep='')
+print(first, third, second, sep='')
+print(first, second, third, sep='')
+
+number = int(input())
+fourth = number % 10
+third = (number % 100) // 10
+second = (number % 1000) // 100
+first = number // 1000
+print("Цифра в позиции тысяч равна", first)
+print("Цифра в позиции сотен равна", second)
+print("Цифра в позиции десятков равна", third)
+print("Цифра в позиции единиц равна", fourth)
